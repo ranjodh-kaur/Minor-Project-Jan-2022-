@@ -1,0 +1,150 @@
+\documentclass[9pt,a4paper,margin=1/2 cm]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\pagenumbering{roman}
+\begin{document}
+
+\begin{center}
+    \title\textbf{\Huge{\textbf{Image Steganography}}\\
+\vspace{10pt}
+ \huge{Minor Project Synopsis} \\
+\vspace{10pt}
+ \huge{\textbf{Bachelor of Technology}}\\
+\vspace{10pt}
+ \huge{Information Technology}\\
+\vspace{10pt}
+\Huge{\textbf{Submitted By:-}}\\
+\vspace{10pt}
+\large{\textbf{Vanshika Chaudhary}}\\
+\large{University Roll no.}:-1905412\\
+\large{Class Roll no.}:-1921112\\
+
+\vspace{10pt}
+\large{\textbf{Kavita Chaurasia}}\\
+\large{University Roll no.}:-200509\\
+\large{Class Roll no.}:-1921153\\
+
+\vspace{10pt}
+%\begin{figure}
+    \centering
+    \includegraphics[width=7cm]{GNDEC.png}
+\vspace{30pt}\\
+\textbf GURU NANAK DEV ENGINEERING COLLEGE LUDHIANA-141006, INDIA}
+\end{center}
+\tableofcontents
+\newpage
+\begin{flushleft}
+    \section{Introduction}
+\end{flushleft}
+\vspace{10pt}
+\begin{flushleft}
+\large Steganography comes from the Greek word, It means covered or secret writing.
+\begin{center}
+    \Large{\textbf{“Steganos- meaning hidden or covered”\\
+“Grap- meaning to write”
+}}
+\end{center}
+
+Steganography is the technique of hiding secret data within an ordinary, non-secret, file or message in order to avoid detection; the secret data is then extracted at its destination. The use of steganography can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek.\\
+                         Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content; the data to be hidden can be hidden inside almost any other type of digital content. \\
+\vspace{20pt}
+\centering
+\includegraphics[width=8 cm]{stegano.png}
+
+\end{flushleft}
+
+\vspace{20pt}
+\begin{flushleft}
+    \subsection{How is it different from cryptography? }
+\end{flushleft}
+\vspace{10pt}
+\begin{flushleft}
+\large Cryptography and steganography are both methods used to hide or protect secret data. However, they differ in the respect that cryptography makes the data unreadable, or hides the meaning of the data, while steganography hides the existence of the data. \\
+ cryptography is similar to writing a letter in a secret language: people can read it, but won’t understand what it means.However, the existence of a (probably secret) message would be obvious to anyone who sees the letter, and if someone either knows or figures out your secret language, then your message can easily be read. \\
+If you were to use steganography in the same situation, you would hide the letter inside a pair of socks that you would be gifting the intended recipient of the letter. To those who don’t know about the message, it would look like there was nothing more to your gift than the socks. But the intended recipient knows what to look for, and finds the message hidden in them. 
+
+\end{flushleft}
+\newpage
+\begin{flushleft}
+\section{Image steganography}
+\vspace{10pt}
+%\newline
+\large As the name suggests, Image Steganography refers to the process of hiding data within an image file. The image selected for this purpose is called the cover image and the image obtained after steganography is called the stego image. \\
+\vspace{20pt}
+\end{flushleft}
+\centering
+\includegraphics[width=8 cm]{abc.jpeg}\\
+\vspace{10pt}
+\begin{flushleft}
+    \subsection{How is it done.}
+\end{flushleft}
+\begin{flushleft}
+\large An image is represented as an N*M (in case of greyscale images) or N*M*3 (in case of color images) matrix in memory, with each entry representing the intensity value of a pixel. In image steganography, a message is embedded into an image by altering the values of some pixels, which are chosen by an encryption algorithm. The recipient of the image must be aware of the same algorithm in order to know which pixels he or she must select to extract the message. \\
+\end{flushleft}
+\vspace{20pt}
+\centering
+\includegraphics[width=8 cm]{EFG.png}\\
+\newpage
+\begin{flushleft}
+\section{AES Algorithm}
+\vspace{10pt}
+\large Advanced Encryption Standard (AES) is a specification for the encryption of electronic data established by the U.S National Institute of Standards and Technology (NIST) in 2001. AES is widely used today as it is a much stronger than DES and triple DES despite being harder to implement.\\
+\Large{\textbf {Points to remember:-}}
+\begin{enumerate}
+    \item AES is a block cipher.
+\item The key size can be 128/192/256 bits.
+\item Encrypts data in blocks of 128 bits each.
+\end{enumerate}
+
+That means it takes 128 bits as input and outputs 128 bits of encrypted cipher text as output. AES relies on substitution-permutation network principle which means it is performed using a series of linked operations which involves replacing and shuffling of the input data.
+\end{flushleft}
+\newpage
+\begin{flushleft}
+\section{Objective}
+\vspace{10pt}
+
+\begin{enumerate}
+\item The main objective of Steganography is to communicate securely in such a way that the true message is not visible to the observer.
+\item Image Steganography allows for two parties to communicate secretly and covertly. 
+\item  It allows for copyright protection on digital files using the message as a digital watermark.
+\item  It is a form of data hiding and can be executed in clever ways
+\end{enumerate}
+\end{flushleft}
+\newpage
+\begin{flushleft}
+\section{Feasibility of Study}
+\vspace{20pt}
+\subsection{ Need of Image steganography: -}
+Steganography is a method of hiding secret data, by embedding it into an audio, video, image, or text file. It is one of the methods employed to protect secret or sensitive data from malicious attacks.\\
+\vspace{20pt}
+\subsection{Uses of Image steganography}
+Image Steganography is another free program for hiding your information in image files. You can hide text messages or files inside an image file. Just select the source file in which you want to hide the secret message and then select the file to hide or write the text message to hide.\\
+\vspace{20pt}
+\subsection{Significance of Image steganography.}
+The purpose of steganography is covert communication—to hide the existence of a message from a third party. Knowledge of steganography is of increasing importance to individuals in the law enforcement, intelligence, and military communities.
+\end{flushleft}
+\vspace{10pt}
+\newpage
+\flushleft
+\section{Methodology}
+\vspace{10pt}
+\large{\textbf{In this project we use some tools like:-}}
+\begin{enumerate}
+    \item NetBeans IDE is a free, open source, integrated development environment (IDE) that enables you to develop desktop, mobile and web applications.
+\item Android app
+\item Java Programming Language.
+\item Images
+\item AES algorithm.
+\end{enumerate}
+\newpage
+\flushleft
+\begin{thebibliography}
+\large\bibitem{Tech Acad}
+https:https://www.geeksforgeeks.org
+\large\bibitem{Tech Acad}
+\large\texttt{https:https://www.slideshare.net/}\\
+\end{thebibliography}
+\end{document}
+
+
