@@ -1,0 +1,184 @@
+\documentclass[14pt,a4paper,margin=1in]{extarticle}
+
+\usepackage{graphicx}
+\usepackage[margin=1in,includefoot]{geometry}
+
+
+ 
+\oddsidemargin=10pt
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{times}
+
+\date{}
+
+
+\bibliographystyle{IEEEtran}
+\bibliographystyle{References}
+\usepackage[utf8]{inputenc}
+\title{\bfseries Project Report}
+\begin{document}
+\begin{titlepage}	
+	\centering 	
+	{\LARGE \bfseries FOOD FOR LIFE}
+	\vspace{2\baselineskip}
+	
+	{\Large Minor Project Synopsis}
+	\vspace{3\baselineskip}
+	
+	{\Large Submitted in partial fulfillment of}
+	\vspace{0.5\baselineskip}
+	
+	{\Large  the requirements for the degree of }
+		\vspace{2\baselineskip}
+
+ {\Large  BACHELOR OF TECHNOLOGY }
+	
+	{ \Large	(Information Technology) }
+
+\begin{figure}[ht]
+\centering
+ 
+\includegraphics[width=8cm]{gndeclogo.png}
+
+\end{figure}
+\vspace{2\baselineskip}
+\begin{tabular}{c c c c }
+
+
+\textbf{Submitted By:} 
+     &  \hspace{1.9in} \textbf{Guide Name:}\\
+     \textbf{Lekhnath Khanal URN: 1905358} 
+     &  \hspace{2.1in} \textbf{Er. Hanit Kaur}\\
+     \textbf{Gurvinder Singh URN: 1905329} 
+     &  \hspace{2.5in} 
+    \\
+     \textbf{Ankit Singh URN: 1905305} 
+     &  \hspace{2.5in} 
+     
+\end{tabular}
+\vspace{2\baselineskip}
+ {\Large \\   GURU NANAK DEV ENGINEERING COLLEGE }
+	\vspace{1\baselineskip}
+	{ \Large \\	Ludhiana -141006, India }
+\end{titlepage}
+
+\newpage
+\begin{center}
+ \LARGE{{\bfseries Content}}   
+\end{center}
+\vspace{2\baselineskip}
+
+\begin{enumerate} 
+
+\item Introduction
+\item Technologies to be used
+\item Technical feasibility
+\item Objectives
+\item Scope
+\item Conclusion
+   
+\end{enumerate}
+\newpage
+\begin{center}
+ { \fontsize{20}{14} \selectfont \bfseries Introduction  }
+  
+\end{center}
+\vspace{2\baselineskip}
+
+\normalsize "FOOD FOR LIFE" is a food relief project to serve the food for the needy. Now-a-days, One third of the food produced is being wasted and about 9 percent of the people in this world go to bed in an empty stomach. In this project, various party palaces or hotels have to give information about their unused food in our website and we or other organisation have to collect the food and distribute the food to the needy.
+
+\newpage
+\begin{center}
+   { \fontsize{20}{14} \selectfont \bfseries Technologies to be used}  
+  
+\end{center}
+\vspace{2\baselineskip}
+\normalsize This project will be a Web application to be developed in PHP having
+\begin{itemize}
+    \item PHP
+    \item HTML
+    \item MYSQL
+    \item JavaScript
+   
+\end{itemize}
+\newpage
+\begin{center}
+   { \fontsize{20}{14} \selectfont \bfseries Technical feasibility}  
+  
+\end{center}
+\vspace{2\baselineskip}
+\normalsize A study of resource availability that may affect the ability to achieve an acceptable system. This evaluation determines whether the technology needed for the proposed system is available or not.
+ \begin{itemize}
+     \item Can the work for the project be done with current equipment existing software technology and available personal?
+     \item Can the system be upgraded if developed?
+     \item If new technology is needed then what can be developed?
+     \item This is concerned with specifying equipment and software that will successfully satisfy the user requirement. The technical needs of the system may include:
+ \end{itemize}
+  \section { \fontsize{17}{12} \selectfont \bfseries Front-end and back-end selection}
+ \normalsize An important issue for the development of a project is the selection of suitable front-end and back-end. When we decided to develop the project we went through an extensive study to determine the most suitable platform that suits the needs of the organization as well as helps in development of the project.
+ 	 
+
+ \textbf {The aspects of our study included the following factors:}
+ \subsection{Front-end selection:}
+ \begin{enumerate} 
+
+\item Scalability and extensibility.
+\item Flexibility.
+\item Robustness.
+\item Platform independent.
+\item Easy to debug and maintain.
+    
+\end{enumerate}
+
+\subsection{Back-end Selection:}
+\begin{enumerate}
+    \item Multiple user support.
+     \item Efficient data handling.
+      \item Provide inherent features for security.
+       \item Efficient data retrieval and maintenance.
+        \item Easy to install.
+         \item Various drivers must be available.
+          \item Easy to implant with the Front-end.
+    
+\end{enumerate}
+
+\newpage
+\begin{center}
+   { \fontsize{20}{14} \selectfont \bfseries Objectives }  
+  
+\end{center}
+\vspace{2\baselineskip}
+\textbf{The main objectives of this project are:}
+\begin{itemize}
+ \item The main objective of our project is to reduce the food wastage as many of us throws the unused food in dustbins.
+ \item The objective of this is to help the organization who serves the food to the hungry people.
+
+\end{itemize}
+\newpage
+\begin{center}
+   { \fontsize{20}{14} \selectfont \bfseries Scope }  
+  
+\end{center}
+\vspace{2\baselineskip}
+\normalsize 
+\begin{itemize}
+    \item Leverage your existing relationships with food banks to donate food after events.
+
+\item Reach out to your local grocers, restaurants, venues and/or schools to suggest that they could donate wholesome food that will be wasted.
+
+\item Create a schedule for pick-up of donated food from your organization or business on a weekly, biweekly or monthly basis.
+
+\item Use donated food to feed the hungry or elderly of your community or for events held at your facility.
+
+\end{itemize}
+\newpage
+\begin{center}
+   { \fontsize{20}{14} \selectfont \bfseries Conclusion }  
+   \vspace{2\baselineskip}
+  
+\end{center}
+\normalsize This "Food For Life" project is to feed the hungry people with the help of our system. Organisations such as hotels or resturants have to publish the details of their food in our website. Many food banks and food rescue organizations will pick up food donations free of charge, saving donors time and money.
+
+\end{document}
